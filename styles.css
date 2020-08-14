@@ -1,0 +1,7 @@
+.top-background-image {
+  /* background-image: url("./top-wintersfroth-image.jpg"); */
+  background-image: url("https://via.placeholder.com/1000/835a3c/835a3c.com");
+  height: 35vh;
+  background-size: cover;
+  background-position: center center;
+}
