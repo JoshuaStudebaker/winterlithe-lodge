@@ -20,3 +20,8 @@ a {
 .hg-main {
   background-color: var(--hg-main);
 }
+
+.button-main-style {
+  background-color: var(--hg-main);
+  color: var(--text-dark);
+}

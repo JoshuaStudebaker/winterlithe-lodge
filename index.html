@@ -13,15 +13,18 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link ref="styelesheet" href="base-theme.css">
-    <script src="https://kit.fontawesome.com/4dd4faf761.js" crossorigin="anonymous"></script>
+    <link ref="styelesheet" href="base-theme.css" />
+    <script
+      src="https://kit.fontawesome.com/4dd4faf761.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    
-    <header class="container-fluid"><!--#region Header with Sticky Navbar  -->
-      
+    <header class="container-fluid">
+      <!--#region Header with Sticky Navbar  -->
+
       <nav class="row navbar navbar-light hg-main">
         <a class="navbar-brand" href="#">
           <i class="fas fa-mountain" aria-hidden="true"></i>
@@ -38,31 +41,31 @@
             <a class="nav-link" href="#">How to Reach Us</a>
           </li>
         </ul>
-      
       </nav>
-    </header><!--#endregion  -->
+    </header>
+    <!--#endregion  -->
 
-    
-    
-    <main class="container-fluid"><!--#region Main  -->
+    <main class="container-fluid">
+      <!--#region Main  -->
       <!--  -->
 
       <!--#region Background Image Top -->
-      <div class="row top-background-image">
+      <div class="row top-background-image p-2">
         <!--  -->
 
         <!-- Form Division (Positioned Left on Desktop) -->
         <div class="col-md-4">
           <!-- Overheading for Form -->
-          <h4 class=>Membership</h4>
-
+          <div class="row">
+            <h4 class="mb-0">Membership</h4>
+          </div>
           <!-- Form -->
-          <form class="bg-light">
+          <form class="row bg-light shadow p-2">
             <!-- Form Heading -->
-            <h3 class="col-12">Enter your Info</h3>
+            <h3 class="offset-1 mb-0">Enter your Info</h3>
 
             <!-- Enter Email -->
-            <div class="form-group">
+            <div class="col-12 form-group">
               <label for="formEmail1"></label>
               <input
                 type="email"
@@ -74,7 +77,7 @@
             </div>
 
             <!-- Enter Name -->
-            <div class="form-group">
+            <div class="col-12 form-group">
               <label for="formName"></label>
               <input
                 type="text"
@@ -86,9 +89,9 @@
             </div>
 
             <!-- Enter Phone and Extension -->
-            
+
             <!-- Phone Division -->
-            <div class="form-group">
+            <div class="col-md-8 form-group">
               <label for="formPhone"></label>
               <input
                 type="text"
@@ -100,7 +103,7 @@
             </div>
 
             <!-- Extension Division -->
-            <div class="form-group">
+            <div class="col-4 form-group">
               <label for="formExt"></label>
               <input
                 type="text"
@@ -111,10 +114,9 @@
               />
             </div>
             <!--  -->
-            
 
             <!-- Terms of Service -->
-            <div class="form-check">
+            <div class="offset-1 form-check">
               <input
                 type="checkbox"
                 class="form-check-input"
@@ -124,7 +126,9 @@
                 >By checking this box I agree to the term of service</label
               >
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="offset-1 btn button-main-style">
+              Submit
+            </button>
           </form>
         </div>
         <!--  -->
@@ -132,49 +136,68 @@
         <!-- Text over an Image -->
         <div class="col-8 d-none d-md-flex">
           <div>
-          <h3>Text over Image</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nostrum vitae ut! Minima, a odit.</p>
+            <h3>Text over Image</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aspernatur nostrum vitae ut! Minima, a odit.
+            </p>
           </div>
-      </div>
+        </div>
       </div>
       <!--#endregion  -->
 
       <!-- Intro Row -->
       <div class="row hg-main">
         <div class="col-md-6 order-md-2">
-<div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-    </p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn button-main-style">Go somewhere</a>
+            </div>
+          </div>
         </div>
         <div class="col-md-6 order-md-1">
           <div class="p-4">
-          <h2>Long Long Long Long Long Long Long Long Heading</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente repellendus accusamus, dolores deserunt laboriosam praesentium eius rem. Repudiandae similique deserunt ut ipsam vitae laboriosam.</p>
+            <h2>Long Long Long Long Long Long Long Long Heading</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
+              repellendus accusamus, dolores deserunt laboriosam praesentium
+              eius rem. Repudiandae similique deserunt ut ipsam vitae
+              laboriosam.
+            </p>
+          </div>
         </div>
-        </div>
-        
       </div>
 
-
-
-<!-- Middle Content Section-->
+      <!-- Middle Content Section-->
       <div class="row">
         <div class="col-4">
-          <div class=" p-3">
-            <img class="vertical-image" src="secondary-image.jpg" alt="Women drinking Wintersfroth">
+          <div class="p-3">
+            <img
+              class="vertical-image"
+              src="secondary-image.jpg"
+              alt="Women drinking Wintersfroth"
+            />
+          </div>
         </div>
-      </div>
 
         <div class="col-8">
-          <h1>Remember to add icon</h1>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima a fugiat et quasi sunt sapiente animi aliquam, voluptatibus atque tempora quo sint voluptas quisquam tenetur incidunt reprehenderit? Aspernatur, cupiditate laboriosam!</p>
-          <button class="btn-primary">More</button>
+          <h1>
+            <i class="fas fa-tree"></i><i class="fas fa-tree"></i> Mountains,
+            Outdoors, Forests, Etc.............
+          </h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima a
+            fugiat et quasi sunt sapiente animi aliquam, voluptatibus atque
+            tempora quo sint voluptas quisquam tenetur incidunt reprehenderit?
+            Aspernatur, cupiditate laboriosam!
+          </p>
+          <button class="button-main-style">More</button>
         </div>
       </div>
 
@@ -182,42 +205,69 @@
       <div class="row">
         <div class="card-group">
           <div class="card">
-            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+            <img
+              class="card-img-top"
+              src=".../100px180/"
+              alt="Card image cap"
+            />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-                This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
             </div>
           </div>
           <div class="card">
-            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+            <img
+              class="card-img-top"
+              src=".../100px180/"
+              alt="Card image cap"
+            />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <p class="card-text">
+                This card has supporting text below as a natural lead-in to
+                additional content.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
             </div>
           </div>
           <div class="card">
-            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+            <img
+              class="card-img-top"
+              src=".../100px180/"
+              alt="Card image cap"
+            />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-                This card has even longer content than the first to show that equal height action.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </main> <!--#endregion  -->
+    </main>
+    <!--#endregion  -->
 
-   
-    
-    <footer class="container-fluid text-center"><!--#region Footer  -->
+    <footer class="container-fluid text-center">
+      <!--#region Footer  -->
       <div class="row hg-main"><h2>Big Text and then Small Text</h2></div>
       <div class="row text-primary"><p>smaller text</p></div>
-    </footer><!--#endregion  -->
-    
+    </footer>
+    <!--#endregion  -->
 
     <!--#region Bootstrap Java Script Links -->
     <script
