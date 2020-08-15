@@ -66,3 +66,13 @@ h4 {
 .hg-halfway-see-through {
   background-color: var(--halfway-see-through-snowgrey);
 }
+
+.right-15px {
+  position: relative;
+  left: 15px;
+}
+
+p i {
+  color: var(--hg-main);
+  text-shadow: 1px 1px 0px black;
+}

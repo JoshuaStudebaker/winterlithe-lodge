@@ -26,10 +26,12 @@
       <!--#region Header with Sticky Navbar  -->
 
       <nav class="row navbar navbar-light hg-main">
-        <a class="navbar-brand" href="#">
-          <i class="fas fa-mountain" aria-hidden="true"></i>
-          Winterlithe Lodge
-        </a>
+        <div class="hg-halfway-see-through shadow p-1">
+          <a class="navbar-brand" href="#">
+            <i class="fas fa-mountain" aria-hidden="true"></i>
+            <u>Winterlithe Lodge</u>
+          </a>
+        </div>
         <ul class="nav">
           <li class="nav-item">
             <a class="nav-link" href="#">Bookings</a>
@@ -50,19 +52,21 @@
       <!--  -->
 
       <!--#region Background Image Top -->
-      <div class="row top-background-image">
+      <div class="row top-background-image p-2">
         <!--  -->
 
         <!-- Form Division (Positioned Left on Desktop) -->
         <div class="col-md-4">
           <!-- Overheading for Form -->
           <div class="row">
-            <h5 class="stave-shadow-big">Membership</h5>
+            <h5>Membership</h5>
+            <!--  class="stave-shadow-big" -->
           </div>
           <!-- Form -->
-          <form class="row bg-light shadow p-2">
+          <form class="row hg-halfway-see-through shadow pb-2">
             <!-- Form Heading -->
-            <h4 class="offset-1 text-main-hue stave-shadow-small">
+            <h4 class="stave-shadow-small right-15px mb-0 mt-2">
+              <!-- took off text-main-hue -->
               Send us a message
             </h4>
 
@@ -167,16 +171,34 @@
 
       <!-- Intro Row -->
       <div class="row hg-main">
-        <div class="col-md-6 order-md-2">
+        <div class="col-md-6 order-md-2 pt-2">
           <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                <a class="nav-link p-0" href="#">
+                  <i class="fas fa-bed"></i> Lorem ipsum dolor sit amet.
+                </a>
               </p>
-              <a href="#" class="btn button-main-style">Go somewhere</a>
+              <p class="card-text">
+                <a class="nav-link p-0" href="#">
+                  <i class="fas fa-utensils"></i> Lorem ipsum dolor sit amet.
+                </a>
+              </p>
+              <p class="card-text">
+                <a class="nav-link p-0" href="#">
+                  <i class="fas fa-mug-hot"></i> Lorem ipsum dolor sit amet.
+                </a>
+              </p>
+              <p class="card-text">
+                <a class="nav-link p-0" href="#">
+                  <i class="fas fa-skiing"></i> Lorem ipsum dolor sit amet.
+                </a>
+              </p>
+              <p class="card-text">
+                <a class="nav-link p-0" href="#">
+                  <i class="fas fa-hiking"></i> Lorem ipsum dolor sit amet.
+                </a>
+              </p>
             </div>
           </div>
         </div>
