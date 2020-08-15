@@ -2,5 +2,9 @@
   background-image: url("./top-wintersfroth-image.jpg");
   /* background-image: url("https://via.placeholder.com/1000/835a3c/835a3c.com"); */
   background-size: cover;
-  background-position: right bottom;
+  background-position: bottom;
+}
+
+.vertical-image {
+  max-width: 100%;
 }

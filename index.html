@@ -18,7 +18,45 @@
 
   <body>
     <!--#region Header with Sticky Navbar  -->
-    <header></header>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
     <!--#endregion  -->
 
     <!--#region Main  -->
@@ -32,15 +70,15 @@
         <!-- Form Division (Positioned Left on Desktop) -->
         <div class="col-md-4">
           <!-- Overheading for Form -->
-          <h4 class="row">Membership</h4>
+          <h4 class=>Membership</h4>
 
           <!-- Form -->
-          <form class="row bg-light">
+          <form class="bg-light">
             <!-- Form Heading -->
             <h3 class="col-12">Enter your Info</h3>
 
             <!-- Enter Email -->
-            <div class="col-12 form-group">
+            <div class="form-group">
               <label for="formEmail1"></label>
               <input
                 type="email"
@@ -52,7 +90,7 @@
             </div>
 
             <!-- Enter Name -->
-            <div class="col-12 form-group">
+            <div class="form-group">
               <label for="formName"></label>
               <input
                 type="text"
@@ -64,10 +102,9 @@
             </div>
 
             <!-- Enter Phone and Extension -->
-            <!-- <div> -->
-
+            
             <!-- Phone Division -->
-            <div class="col-8 form-group">
+            <div class="form-group">
               <label for="formPhone"></label>
               <input
                 type="text"
@@ -79,7 +116,7 @@
             </div>
 
             <!-- Extension Division -->
-            <div class="col-4 form-group">
+            <div class="form-group">
               <label for="formExt"></label>
               <input
                 type="text"
@@ -89,12 +126,11 @@
                 placeholder="Ext"
               />
             </div>
-
             <!--  -->
-            <!-- </div> -->
+            
 
             <!-- Terms of Service -->
-            <div class="col-12 form-check">
+            <div class="form-check">
               <input
                 type="checkbox"
                 class="form-check-input"
@@ -109,12 +145,49 @@
         </div>
         <!--  -->
 
-        <div class="col-8 d-none d-md-flex">Goodbye World</div>
+        <!-- Text over an Image -->
+        <div class="col-8 d-none d-md-flex">
+          <div>
+          <h3>Text over Image</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nostrum vitae ut! Minima, a odit.</p>
+          </div>
+      </div>
       </div>
       <!--#endregion  -->
 
-      <div class="row"></div>
-      <div class="row"></div>
+      <!-- Intro Row -->
+      <div class="row bg-primary">
+        <div class="col-md-6 order-md-2">
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+    </p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+        </div>
+        <div class="col-md-6 order-md-1">
+          <div class="p-4">
+          <h2>Long Long Long Long Long Long Long Long Heading</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente repellendus accusamus, dolores deserunt laboriosam praesentium eius rem. Repudiandae similique deserunt ut ipsam vitae laboriosam.</p>
+        </div>
+        </div>
+        
+      </div>
+
+
+
+<!-- Main Content -->
+      <div class="row">
+        <div class="col-4">
+          <div class=" p-3">
+            <img class="vertical-image" src="secondary-image.jpg" alt="Women drinking Wintersfroth">
+  </div>
+</div>
+<div class="col-8"></div>
+      </div>
       <div class="row"></div>
     </main>
     <!--#endregion  -->
