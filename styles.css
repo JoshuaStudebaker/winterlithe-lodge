@@ -76,3 +76,14 @@ p i {
   color: var(--hg-main);
   text-shadow: 1px 1px 0px black;
 }
+
+.mid-height: {
+  position: relative;
+  top: 50% "";
+}
+
+@media only screen and (min-width: 768px) {
+  .below-bottom {
+  top: 20%;
+  z-index: 1;
+}

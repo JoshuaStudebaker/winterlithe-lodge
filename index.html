@@ -22,7 +22,7 @@
   </head>
 
   <body>
-    <header class="container-fluid">
+    <header class="container-fluid sticky-top shadow">
       <!--#region Header with Sticky Navbar  -->
 
       <nav class="row navbar navbar-light hg-main">
@@ -59,8 +59,8 @@
         <div class="col-md-4">
           <!-- Overheading for Form -->
           <div class="row">
-            <h5>Membership</h5>
-            <!--  class="stave-shadow-big" -->
+            <h5 class="stave-shadow-big">Membership</h5>
+            <!--  " -->
           </div>
           <!-- Form -->
           <form class="row hg-halfway-see-through shadow pb-2">
@@ -171,34 +171,39 @@
 
       <!-- Intro Row -->
       <div class="row hg-main">
-        <div class="col-md-6 order-md-2 pt-2">
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <p class="card-text">
-                <a class="nav-link p-0" href="#">
-                  <i class="fas fa-bed"></i> Lorem ipsum dolor sit amet.
-                </a>
-              </p>
-              <p class="card-text">
-                <a class="nav-link p-0" href="#">
-                  <i class="fas fa-utensils"></i> Lorem ipsum dolor sit amet.
-                </a>
-              </p>
-              <p class="card-text">
-                <a class="nav-link p-0" href="#">
-                  <i class="fas fa-mug-hot"></i> Lorem ipsum dolor sit amet.
-                </a>
-              </p>
-              <p class="card-text">
-                <a class="nav-link p-0" href="#">
-                  <i class="fas fa-skiing"></i> Lorem ipsum dolor sit amet.
-                </a>
-              </p>
-              <p class="card-text">
-                <a class="nav-link p-0" href="#">
-                  <i class="fas fa-hiking"></i> Lorem ipsum dolor sit amet.
-                </a>
-              </p>
+        <div class="col-md-6 order-md-2 pt-2 d-flex justify-content-center">
+          <div
+            class="card below-bottom shadow rounded hg-halfway-see-through"
+            style="width: 18rem;"
+          >
+            <div class="card-body shadow">
+              <div class="shadow pt-1 pr-0 pb-1 pl-2 rounded bg-light">
+                <p class="card-text">
+                  <a class="nav-link p-0" href="#">
+                    <i class="fas fa-bed"></i> Lorem ipsum dolor sit amet.
+                  </a>
+                </p>
+                <p class="card-text">
+                  <a class="nav-link p-0" href="#">
+                    <i class="fas fa-utensils"></i> Lorem ipsum dolor sit amet.
+                  </a>
+                </p>
+                <p class="card-text">
+                  <a class="nav-link p-0" href="#">
+                    <i class="fas fa-mug-hot"></i> Lorem ipsum dolor sit amet.
+                  </a>
+                </p>
+                <p class="card-text">
+                  <a class="nav-link p-0" href="#">
+                    <i class="fas fa-skiing"></i> Lorem ipsum dolor sit amet.
+                  </a>
+                </p>
+                <p class="card-text">
+                  <a class="nav-link p-0" href="#">
+                    <i class="fas fa-hiking"></i> Lorem ipsum dolor sit amet.
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -217,17 +222,17 @@
 
       <!-- Middle Content Section-->
       <div class="row">
-        <div class="col-4">
+        <div class="col-md-4">
           <div class="p-3">
             <img
-              class="vertical-image"
+              class="vertical-image shadow"
               src="secondary-image.jpg"
               alt="Women drinking Wintersfroth"
             />
           </div>
         </div>
 
-        <div class="col-8">
+        <div class="col-md-8 d-flex flex-column justify-content-center">
           <h1>
             <i class="fas fa-tree"></i><i class="fas fa-tree"></i> Mountains,
             Outdoors, Forests, Etc.............
@@ -238,7 +243,9 @@
             tempora quo sint voluptas quisquam tenetur incidunt reprehenderit?
             Aspernatur, cupiditate laboriosam!
           </p>
-          <button class="button-main-style">More</button>
+          <div class="d-flex flex-row-reverse">
+            <button class="button-main-style">More</button>
+          </div>
         </div>
       </div>
 
