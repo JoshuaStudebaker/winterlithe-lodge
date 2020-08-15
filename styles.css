@@ -2,6 +2,7 @@
   --hg-main: hsla(195, 53%, 79%, 1);
   /* --hue-wintergrey: rgb(93, 94, 105); */
   --hue-snowgrey: hsla(218, 19%, 89%, 1);
+  --hue-snow: hsla(218, 19%, 98%, 1);
   --hue-wintergrey: hsla(218, 19%, 59%, 1);
   --halfway-see-through-snowgrey: hsla(218, 19%, 89%, 0.75);
   --halfway-see-through-main: hsla(195, 53%, 79%, 0.5);
@@ -47,8 +48,8 @@ h4 {
   font-size: 1.25rem;
 }
 
-.background-snowgrey {
-  background-color: var(--hue-snowgrey);
+.hg-snow {
+  background-color: var(--hue-snow);
 }
 
 /* 
