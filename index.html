@@ -50,19 +50,21 @@
       <!--  -->
 
       <!--#region Background Image Top -->
-      <div class="row top-background-image p-2">
+      <div class="row top-background-image">
         <!--  -->
 
         <!-- Form Division (Positioned Left on Desktop) -->
         <div class="col-md-4">
           <!-- Overheading for Form -->
           <div class="row">
-            <h4 class="mb-0">Membership</h4>
+            <h5 class="stave-shadow-big">Membership</h5>
           </div>
           <!-- Form -->
           <form class="row bg-light shadow p-2">
             <!-- Form Heading -->
-            <h3 class="offset-1 mb-0">Enter your Info</h3>
+            <h4 class="offset-1 text-main-hue stave-shadow-small">
+              Send us a message
+            </h4>
 
             <!-- Enter Email -->
             <div class="col-12 form-group">
@@ -115,6 +117,19 @@
             </div>
             <!--  -->
 
+            <!-- Message Division -->
+            <div class="col-12 form-group">
+              <label for="formMessage"></label>
+              <!-- <input type="text" class="form-control" id="formMessage" aria-describedby="phoneExtensionHelp" placeholder="Message..." /> -->
+              <textarea
+                class="form-control rounded-0"
+                id="formMessage"
+                rows="4"
+                placeholder="Message..."
+              ></textarea>
+            </div>
+            <!--  -->
+
             <!-- Terms of Service -->
             <div class="offset-1 form-check">
               <input
@@ -136,11 +151,15 @@
         <!-- Text over an Image -->
         <div class="col-8 d-none d-md-flex">
           <div>
-            <h3>Text over Image</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Aspernatur nostrum vitae ut! Minima, a odit.
-            </p>
+            <div
+              class="shadow pt-2 pl-4 pr-2 pb-2 outside-border-main-halfway-see-through set-25percent-down hg-halfway-see-through"
+            >
+              <h3 class="stave-shadow-big">Text over Image</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur nostrum vitae ut! Minima, a odit.
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -1,5 +1,10 @@
 :root {
-  --hg-main: lightblue;
+  --hg-main: hsla(195, 53%, 79%, 1);
+  /* --hue-wintergrey: rgb(93, 94, 105); */
+  --hue-snowgrey: hsla(218, 19%, 89%, 1);
+  --hue-wintergrey: hsla(218, 19%, 59%, 1);
+  --halfway-see-through-snowgrey: hsla(218, 19%, 89%, 0.75);
+  --halfway-see-through-main: hsla(195, 53%, 79%, 0.5);
 }
 
 .top-background-image {
@@ -24,4 +29,40 @@ a {
 .button-main-style {
   background-color: var(--hg-main);
   color: var(--text-dark);
+}
+
+.text-main-hue {
+  color: var(--hg-main);
+}
+
+.stave-shadow-big {
+  text-shadow: 1px 1px 0px var(--hue-wintergrey);
+}
+
+.stave-shadow-small {
+  text-shadow: 0.5px 0.5px 0px var(--wintergrey);
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+.background-snowgrey {
+  background-color: var(--hue-snowgrey);
+}
+
+/* 
+.outside-border-main-halfway-see-through { 
+  border-left: 0.5rem solid var(--halfway-see-through-main);
+  border-right: 0.5rem solid var(--halfway-see-through-main);
+}
+*/
+
+.set-25percent-down {
+  position: relative;
+  top: 25%;
+}
+
+.hg-halfway-see-through {
+  background-color: var(--halfway-see-through-snowgrey);
 }
