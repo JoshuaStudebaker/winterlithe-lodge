@@ -100,13 +100,14 @@ p i {
   padding: 0 0.5rem;
 }
 
-.bigger-card {
+/* .bigger-card { 
   height: 16rem;
 }
 
 .smaller-card {
   height: 12rem;
 }
+*/
 
 @media only screen and (min-width: 768px) {
   .below-bottom {
