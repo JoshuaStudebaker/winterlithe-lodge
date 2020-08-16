@@ -18,21 +18,28 @@
       src="https://kit.fontawesome.com/4dd4faf761.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balthazar&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <header class="container-fluid sticky-top shadow">
+    <header class="container-fluid sticky-top shadow brand-font">
       <!--#region Header with Sticky Navbar  -->
 
       <nav class="row navbar navbar-light hg-main">
         <div class="hg-halfway-see-through shadow p-1 rounded">
-          <a class="navbar-brand" href="#">
-            <i class="fas fa-mountain" aria-hidden="true"></i>
-            <u>Winterlithe Lodge</u>
+          <a class="navbar-brand pb-0" href="#">
+            <span class="bigger-font"
+              ><i class="fas fa-mountain" aria-hidden="true"></i>
+              <u>Winterlithe Lodge</u></span
+            >
           </a>
+          <!-- <hr class="mt-0" /> -->
         </div>
-        <ul class="nav">
+        <ul class="nav smaller-font">
           <li class="nav-item">
             <a class="nav-link" href="#">Bookings</a>
           </li>
@@ -47,7 +54,7 @@
     </header>
     <!--#endregion  -->
 
-    <main class="container-fluid">
+    <main class="container-fluid flex-grow-1">
       <!--#region Main  -->
       <!--  -->
 
@@ -253,15 +260,15 @@
       </div>
 
       <!-- Three Card Row -->
-      <div class="row hg-snow">
+      <div class="row hg-snow d-flex align-items-center text-center">
         <div class="col-md-4">
-          <div class="card shadow">
+          <div class="card shadow smaller-card">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
               <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Sapiente repellendus accusamus, dolores deserunt laboriosam
+                praesentium eius rem. Repudiandae similique deserunt ut ipsam
+                vitae laboriosam.
               </p>
               <p class="card-text">
                 <small class="text-muted">Last updated 3 mins ago</small>
@@ -270,7 +277,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card shadow">
+          <div class="card shadow bigger-card">
             <div class="card-body">
               <div
                 class="card-title d-flex justify-content-center holly-berries"
@@ -292,8 +299,9 @@
                 </div>
               </div>
               <p class="card-text">
-                This card has supporting text below as a natural lead-in to
-                additional content.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                molestias voluptatum ipsum. Et doloremque possimus laudantium
+                dolores exercitationem minus in.
               </p>
               <p class="card-text">
                 <small class="text-muted">Last updated 3 mins ago</small>
@@ -302,13 +310,12 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card shadow">
+          <div class="card shadow smaller-card">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
               <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content
-                than the first to show that equal height action.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                odit cumque quisquam ab, fuga quam debitis perferendis maxime
+                blanditiis expedita!
               </p>
               <p class="card-text">
                 <small class="text-muted">Last updated 3 mins ago</small>
@@ -320,10 +327,21 @@
     </main>
     <!--#endregion  -->
 
-    <footer class="container-fluid text-center">
+    <footer class="container-fluid mt-5 shadow">
       <!--#region Footer  -->
-      <div class="row hg-main"><h2>Big Text and then Small Text</h2></div>
-      <div class="row text-primary"><p>smaller text</p></div>
+      <div class="row hg-main shadow text-light stave-shadow-big">
+        <div class="col-11 offset-1 align-items-center pt-3 pb-3">
+          <h3 class="mb-0">Big Text</h3>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cumque
+            eum expedita molestias! Corrupti, odit.
+          </p>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center align-items-center m-auto">
+        <p class="bottom-footer-text mt-2 mb-2">smaller text</p>
+      </div>
     </footer>
     <!--#endregion  -->
 
