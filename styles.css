@@ -84,9 +84,14 @@ p i {
   text-shadow: 1px 1px 0px black;
 }
 
-.mid-height: {
-  position: relative;
-  top: 50% "";
+.holly-berries{
+  color: var(--hg-main);
+  text-shadow: 1px 1px 0px black;
+  font-size: 2rem;
+}
+
+.holly-padding{
+  padding: 0 .5rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -94,3 +99,4 @@ p i {
   top: 20%;
   z-index: 1;
 }
+
