@@ -135,7 +135,6 @@ hr {
   color: var(--hue-wintergrey);
   text-align: center;
   vertical-align: middle;
-  display: block;
 }
 
 .leftside-border {
