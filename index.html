@@ -37,7 +37,6 @@
               <u>Winterlithe Lodge</u></span
             >
           </a>
-          <!-- <hr class="mt-0" /> -->
         </div>
         <ul class="nav smaller-font">
           <li class="nav-item">
@@ -58,15 +57,17 @@
       <!--#region Main  -->
       <!--  -->
 
-      <!--#region Background Image Top -->
+      <!--#region Top Background Image + Form -->
       <div class="row top-background-image p-2">
         <!--  -->
 
         <!-- Form Division (Positioned Left on Desktop) -->
         <div class="col-md-4">
-          <!-- Overheading for Form -->
+          <!-- Heading over Form -->
           <div class="row">
-            <h5 class="stave-shadow-big">Eonheiwgd?</h5>
+            <h5 class="stave-shadow-big shadow hg-halfway-see-through">
+              Eonheiwgd?
+            </h5>
             <!--  " -->
           </div>
           <!-- Form -->
@@ -85,7 +86,7 @@
                 class="form-control"
                 id="formEmail1"
                 aria-describedby="emailHelp"
-                placeholder="Enter email"
+                placeholder="Email"
               />
             </div>
 
@@ -102,7 +103,6 @@
             </div>
 
             <!-- Enter Phone and Extension -->
-
             <!-- Phone Division -->
             <div class="col-md-8 form-group">
               <label for="formPhone"></label>
@@ -123,7 +123,7 @@
                 class="form-control"
                 id="formExt"
                 aria-describedby="phoneExtensionHelp"
-                placeholder="Ext"
+                placeholder="Ext."
               />
             </div>
             <!--  -->
@@ -131,7 +131,6 @@
             <!-- Message Division -->
             <div class="col-12 form-group">
               <label for="formMessage"></label>
-              <!-- <input type="text" class="form-control" id="formMessage" aria-describedby="phoneExtensionHelp" placeholder="Message..." /> -->
               <textarea
                 class="form-control rounded-0"
                 id="formMessage"
@@ -142,16 +141,17 @@
             <!--  -->
 
             <!-- Terms of Service -->
-            <div class="offset-1 form-check">
+            <div class="offset-1 form-check col-12">
               <input
                 type="checkbox"
                 class="form-check-input"
                 id="termsOfServiceCheckBox"
               />
-              <label class="form-check-label" for="termsOfServiceCheckBox"
+              <label class="form-check-label pr-3" for="termsOfServiceCheckBox"
                 >By checking this box I agree to the term of service</label
               >
             </div>
+            <!-- Submit Button -->
             <button
               type="submit"
               class="offset-1 button-main-style rounded mt-1"
@@ -162,7 +162,7 @@
         </div>
         <!--  -->
 
-        <!-- Text over an Image -->
+        <!-- Text over Top Background Image (disappearing on mobile) -->
         <div class="col-8 d-none d-md-flex">
           <div>
             <div
@@ -181,7 +181,7 @@
       </div>
       <!--#endregion  -->
 
-      <!-- Intro Row -->
+      <!-- Intro Section with Icon Card-->
       <div class="row hg-main shadow">
         <div class="col-md-6 order-md-2 pt-2 d-flex justify-content-center">
           <div
@@ -235,7 +235,7 @@
         </div>
       </div>
 
-      <!-- Middle Content Section-->
+      <!-- Middle Content Section with Vertical Image-->
       <div class="row hg-snow pb-3">
         <div class="col-md-4">
           <div class="p-3">
@@ -274,8 +274,11 @@
         </div>
       </div>
 
-      <!-- Three Card Row -->
+      <!-- Three-Card-Row -->
       <div class="row hg-snow d-flex align-items-center text-center">
+        <!--  -->
+
+        <!-- Main Card, order first on mobile, center on computer -->
         <div class="col-md-4 order-md-2 mb-3">
           <div class="card shadow bigger-card">
             <div class="card-body">
@@ -317,6 +320,9 @@
             </div>
           </div>
         </div>
+        <!--  -->
+
+        <!-- Secondary Card #1 -->
         <div class="col-md-4 order-md-1 mb-3">
           <div class="card shadow smaller-card">
             <div class="card-body">
@@ -339,6 +345,9 @@
             </div>
           </div>
         </div>
+        <!--  -->
+
+        <!-- Secondardy Card #2 -->
         <div class="col-md-4 order-md-3 mb-3">
           <div class="card shadow smaller-card">
             <div class="card-body">
@@ -367,6 +376,8 @@
 
     <footer class="container-fluid shadow">
       <!--#region Footer  -->
+
+      <!-- Text Section of Footer -->
       <div class="row hg-main shadow text-light stave-shadow-big">
         <div class="col-10 offset-1 align-items-center pt-3 pb-3">
           <div class="pr-3 pl-3 leftside-border">
@@ -392,8 +403,11 @@
           </div>
         </div>
       </div>
+      <!--  -->
+
+      <!-- Icon Section of Footer -->
       <div class="row d-flex justify-content-center align-items-center m-auto">
-        <p class="bottom-footer-text mt-2 mb-2 d-flex">
+        <p class="bottom-footer-text mt-3 mb-3 d-flex bigger-font">
           <a class="pr-4" href="#">
             <i class="fas fa-photo-video"></i>
           </a>
